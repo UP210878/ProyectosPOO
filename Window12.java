@@ -4,7 +4,7 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.plaf.metal.MetalButtonUI;
 
-public class Connect4 extends JFrame implements ActionListener {
+public class Window12 extends JFrame implements ActionListener {
     private JButton[][] buttons;
     private char currentPlayer;
     private JLabel statusLabel;
@@ -16,7 +16,7 @@ public class Connect4 extends JFrame implements ActionListener {
     private JMenuItem menuItemOut, menuItemRestart, menuItemAbout;
 
 
-    public Connect4(){
+    public Window12(){
         setLayout(null);
         
         Color fontColorButton = new Color(255,255,255);
@@ -263,7 +263,7 @@ public class Connect4 extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        Connect4 boardGame = new Connect4();
+        Window12 boardGame = new Window12();
         boardGame.setBounds(0, 0, 770, 800);
         boardGame.setVisible(true);
         boardGame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
