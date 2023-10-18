@@ -58,7 +58,7 @@ public class Connect4 extends JFrame implements ActionListener {
 
         statusLabel = new JLabel("<html>Turno del jugador <font color ='red'>1</font></html>");
 
-        statusLabel.setBounds(5, 5, 315, 20);
+        statusLabel.setBounds(200, 5, 315, 20);
         statusLabel.setFont(new Font("Arial", Font.PLAIN, 18));
         statusLabel.setForeground(fontColorButton);
         statusLabel.setHorizontalAlignment(JLabel.CENTER);
@@ -87,12 +87,14 @@ public class Connect4 extends JFrame implements ActionListener {
 
         if(e.getSource() == menuItemAbout){
             JOptionPane.showMessageDialog(null, "Elaborado por Paulina Alvarez y Vicente Valenzuela");
+            return;
         }
         if(e.getSource() == menuItemOut){
             int respuesta = JOptionPane.showConfirmDialog(this, "Desea salir de la aplicacion?", "Confirmar salida", JOptionPane.YES_NO_OPTION);
             if (respuesta == JOptionPane.YES_OPTION){
                 System.exit(0);
             }
+            return;
         }
         if(e.getSource() == menuItemRestart){
             for (int i = 0; i < 7; i++) {
@@ -103,7 +105,14 @@ public class Connect4 extends JFrame implements ActionListener {
                     buttons[i][j].setBackground(new Color(50,50,50));
                 }
             }
-            statusLabel.setText("Turno del jugador " + currentPlayer);
+            if (currentPlayer == '1')
+            {
+            statusLabel.setText("<html>Turno del jugador <font color ='red'>1</font></html>");
+            }
+            else
+            {
+            statusLabel.setText("<html>Turno del jugador <font color ='blue'>2</font></html>");
+            }
             return;
         }
 
@@ -255,7 +264,7 @@ public class Connect4 extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         Connect4 boardGame = new Connect4();
-        boardGame.setBounds(0, 0, 1000, 800);
+        boardGame.setBounds(0, 0, 770, 800);
         boardGame.setVisible(true);
         boardGame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         boardGame.setResizable(false);
