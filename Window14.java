@@ -25,12 +25,17 @@ public class Window14 extends JFrame{
         graph.draw3DRect(5, 100, 90, 55, true);
         graph.fill3DRect(100, 100, 90, 55, true);
 
+        graph.setColor(Color.magenta);
+        graph.drawOval(195, 100, 90, 55);
+        graph.fillOval(290, 100, 90, 55);
     }
 
     public static void main(String[] args) {
         Window14 app = new Window14();
-        app.addWindowListener(new WindowAdapter() {
-            public void windowClosing (WindowEvent e){
+        app.addWindowListener(
+            new WindowAdapter() {
+            public void windowClosing (WindowEvent e)
+            {
                 System.exit(0);
             }
         });
