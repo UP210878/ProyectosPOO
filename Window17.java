@@ -9,6 +9,7 @@ public class Window17 extends JFrame{
         super("Dibujando figuras en 2D");
         setSize(425, 170);
         show();
+        
     }
 
     public void paint (Graphics g){
