@@ -13,20 +13,20 @@ public class Window13 extends JFrame{
     public void paint(Graphics graph){
         graph.setColor(new Color(255, 0, 0));
         graph.fillRect(25, 50, 100, 20);
-        graph.drawString("RVA actual: " + graph.getColor(),130 , 40);
+        graph.drawString("RVA actual: " + graph.getColor(),130 , 65);
 
         graph.setColor(new Color(0.0f, 1.0f, 0.0f));
         graph.fillRect(25, 75, 100, 20);
-        graph.drawString("RVA actual: " + graph.getColor(),130 , 65);
+        graph.drawString("RVA actual: " + graph.getColor(),130 , 90);
 
         graph.setColor(Color.blue);
         graph.fillRect(25, 100, 100, 20);
-        graph.drawString("RVA actual: " + graph.getColor(),130 , 90);
+        graph.drawString("RVA actual: " + graph.getColor(),130 , 115);
 
         Color color = Color.magenta;
         graph.setColor(color);
         graph.fillRect(25, 125, 100, 20);
-        graph.drawString("RVA actual: " + color.getRed() + ", " + color.getGreen() + ", " + color.getBlue(), 130 , 115);
+        graph.drawString("RVA actual: " + color.getRed() + ", " + color.getGreen() + ", " + color.getBlue(), 130 , 140);
     }
 
     public static void main(String[] args) {

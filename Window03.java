@@ -35,7 +35,7 @@ public class Window03 extends JFrame implements ActionListener{
 }
 
 public static void main(String[] args) {
-    Window04 firstWindow = new Window04();
+    Window03 firstWindow = new Window03();
 }
 
 

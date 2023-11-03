@@ -28,7 +28,9 @@ public class Window20Final extends JFrame{
 
         int anchoCirculo=200;
         int alturaCirculo=200;
+
 //ETIQUETAS
+
         graph.setFont(new Font("Arial",Font.PLAIN,16));
         graph.drawString("Hombre 53.65%",280 , 160);
         graph.drawString("Mujer 46.35%",280 , 190);
