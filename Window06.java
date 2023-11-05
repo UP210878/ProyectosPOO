@@ -27,10 +27,10 @@ public class Window06 extends JFrame implements ActionListener{
 
     public void actionPerformed(ActionEvent e){
         if (e.getSource() == buttonCloseWindow){
-            int respuesta = JOptionPane.showConfirmDialog
+            int response = JOptionPane.showConfirmDialog
             (this, "Desea salir de la aplicacion", 
             "Confirmar Salida", JOptionPane.YES_NO_OPTION);
-            if (respuesta == JOptionPane.YES_OPTION) {
+            if (response == JOptionPane.YES_OPTION) {
                 System.exit(0);
                 
             }
@@ -39,12 +39,12 @@ public class Window06 extends JFrame implements ActionListener{
     }
 
     public static void main(String[] args) {
-        Window09 formulario = new Window09();
-        formulario.setBounds(0, 0, 450, 450);
-        formulario.setVisible(true);
-        formulario.setResizable(false);
-        formulario.setLocationRelativeTo(null);
-        formulario.setTitle("First Window");
-        formulario.getContentPane().setBackground(new Color(200,200,200));
+        Window06 inputTextwindow = new Window06();
+        inputTextwindow.setBounds(0, 0, 450, 500);
+        inputTextwindow.setVisible(true);
+        inputTextwindow.setResizable(false);
+        inputTextwindow.setLocationRelativeTo(null);
+        inputTextwindow.setTitle("First Window");
+        inputTextwindow.getContentPane().setBackground(new Color(200,200,200));
     }
 }

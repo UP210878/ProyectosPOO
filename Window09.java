@@ -297,11 +297,8 @@ public class Window09 extends JFrame implements ActionListener{
     } catch (NumberFormatException e) {
         return "Ingrese numeros";
     } catch(Exception e){
-        return "error";
+        return "Error";
     }
-
-        //java.lang.NumberFormatException
-
     }
 
     public static void main(String[] args) {
@@ -311,7 +308,7 @@ public class Window09 extends JFrame implements ActionListener{
         basicCalculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         basicCalculator.setResizable(false);
         basicCalculator.setLocationRelativeTo(null);
-        basicCalculator.setTitle("First Window");
+        basicCalculator.setTitle("Calculator");
         basicCalculator.getContentPane().setBackground(new Color(220,220,220,1));
     }
 }

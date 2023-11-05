@@ -14,7 +14,7 @@ public class Window10 extends JFrame implements ActionListener{
     private JMenu menu,colorMenu;
     private JMenuItem menuItemOut,redTheme,blueTheme,blackTheme,whiteTheme;    
     
-    String texto = "";
+    String text = "";
 
     public Window10(){
         setLayout(null);
@@ -347,10 +347,10 @@ public class Window10 extends JFrame implements ActionListener{
         }
 
         if(e.getSource()== menuItemOut){
-            int answer = JOptionPane.showConfirmDialog
+            int response = JOptionPane.showConfirmDialog
             (this, "Desea salir de la aplicacion", 
             "Confirmar Salida", JOptionPane.YES_NO_OPTION);
-            if (answer == JOptionPane.YES_OPTION) {
+            if (response == JOptionPane.YES_OPTION) {
                 System.exit(0);
                 
             }
@@ -358,7 +358,6 @@ public class Window10 extends JFrame implements ActionListener{
     }
 
     public static String Operations (String operations){
-        //try {
         String finalResult ="", operatorOption ="";
         float value1 = 0f, value2 = 0f;
         char operator;
@@ -384,12 +383,6 @@ public class Window10 extends JFrame implements ActionListener{
             default: finalResult = "error";
         }
         return finalResult;
-    /*}  catch (NumberFormatException e) {
-        return "Input a valid number";
-    }*/
-
-        //java.lang.NumberFormatException
-
     }
 
     public static void main(String[] args) {

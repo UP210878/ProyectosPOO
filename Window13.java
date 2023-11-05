@@ -7,7 +7,7 @@ public class Window13 extends JFrame{
         super("Uso de colores");
 
         setSize(400,180);
-        show();
+        setVisible(true);
 
     }
     public void paint(Graphics graph){

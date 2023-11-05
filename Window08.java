@@ -67,53 +67,53 @@ public class Window08 extends JFrame implements ActionListener{
 
 
     public void actionPerformed(ActionEvent e){
-        int valor1 = 0, valor2 = 1, resultado = 0;
+        int value1 = 0, value2 = 1, result = 0;
 
         if (e.getSource() == buttonCloseWindow){
-            int respuesta = JOptionPane.showConfirmDialog
+            int response = JOptionPane.showConfirmDialog
             (this, "Desea salir de la aplicacion", 
             "Confirmar Salida", JOptionPane.YES_NO_OPTION);
-            if (respuesta == JOptionPane.YES_OPTION) {
+            if (response == JOptionPane.YES_OPTION) {
                 System.exit(0);
                 
             }
         }
 
         if (e.getSource() ==buttonAdd){
-            valor1 = Integer.parseInt(textField1.getText());
-            valor2 = Integer.parseInt(textField2.getText());
-            resultado = valor1 + valor2;
+            value1 = Integer.parseInt(textField1.getText());
+            value2 = Integer.parseInt(textField2.getText());
+            result = value1 + value2;
         }
 
         if (e.getSource() ==buttonSubstract){
-            valor1 = Integer.parseInt(textField1.getText());
-            valor2 = Integer.parseInt(textField2.getText());
-            resultado = valor1 - valor2;
+            value1 = Integer.parseInt(textField1.getText());
+            value2 = Integer.parseInt(textField2.getText());
+            result = value1 - value2;
         }
 
         if (e.getSource() ==buttonDivision){
-            valor1 = Integer.parseInt(textField1.getText());
-            valor2 = Integer.parseInt(textField2.getText());
-            resultado = valor1 / valor2;
+            value1 = Integer.parseInt(textField1.getText());
+            value2 = Integer.parseInt(textField2.getText());
+            result = value1 / value2;
         }
         
         if (e.getSource() ==buttonMultiply){
-            valor1 = Integer.parseInt(textField1.getText());
-            valor2 = Integer.parseInt(textField2.getText());
-            resultado = valor1 * valor2;
+            value1 = Integer.parseInt(textField1.getText());
+            value2 = Integer.parseInt(textField2.getText());
+            result = value1 * value2;
         }
 
-        labelBox.setText("->        " + resultado);
-        resultado = 0;
+        labelBox.setText("->        " + result);
+        result = 0;
     }
 
     public static void main(String[] args) {
-        Window08 formulario = new Window08();
-        formulario.setBounds(0, 0, 350, 400);
-        formulario.setVisible(true);
-        formulario.setResizable(false);
-        formulario.setLocationRelativeTo(null);
-        formulario.setTitle("First Window");
-        formulario.getContentPane().setBackground(new Color(200,200,200));
+        Window08 simpleCalculator = new Window08();
+        simpleCalculator.setBounds(0, 0, 350, 400);
+        simpleCalculator.setVisible(true);
+        simpleCalculator.setResizable(false);
+        simpleCalculator.setLocationRelativeTo(null);
+        simpleCalculator.setTitle("Calculator Prototype");
+        simpleCalculator.getContentPane().setBackground(new Color(200,200,200));
     }
 }

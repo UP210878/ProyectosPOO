@@ -42,9 +42,9 @@ public static void main(String[] args) {
 @Override
 public void actionPerformed(ActionEvent e){
     if (e.getSource() == buttonCloseWindow) {
-        int respuesta = JOptionPane.showConfirmDialog
+        int response = JOptionPane.showConfirmDialog
         (this, "Desea salir?", "Confirmar salida", JOptionPane.YES_NO_OPTION);
-        if (respuesta == JOptionPane.YES_OPTION){
+        if (response == JOptionPane.YES_OPTION){
             System.exit(0);
         }
         

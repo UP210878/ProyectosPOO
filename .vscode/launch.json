@@ -6,6 +6,167 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Window21",
+            "request": "launch",
+            "mainClass": "Window21",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window20",
+            "request": "launch",
+            "mainClass": "Window20",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window20Final",
+            "request": "launch",
+            "mainClass": "Window20Final",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window19",
+            "request": "launch",
+            "mainClass": "Window19",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window18",
+            "request": "launch",
+            "mainClass": "Window18",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window17",
+            "request": "launch",
+            "mainClass": "Window17",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window16",
+            "request": "launch",
+            "mainClass": "Window16",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window15",
+            "request": "launch",
+            "mainClass": "Window15",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Conecta4",
+            "request": "launch",
+            "mainClass": "PK.Conecta4",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window14",
+            "request": "launch",
+            "mainClass": "Window14",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window13",
+            "request": "launch",
+            "mainClass": "Window13",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window12",
+            "request": "launch",
+            "mainClass": "Window12",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window11",
+            "request": "launch",
+            "mainClass": "Window11",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window10",
+            "request": "launch",
+            "mainClass": "Window10",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window09",
+            "request": "launch",
+            "mainClass": "Window09",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window08",
+            "request": "launch",
+            "mainClass": "Window08",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window07",
+            "request": "launch",
+            "mainClass": "Window07",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window06",
+            "request": "launch",
+            "mainClass": "Window06",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window05",
+            "request": "launch",
+            "mainClass": "Window05",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window04",
+            "request": "launch",
+            "mainClass": "Window04",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window03",
+            "request": "launch",
+            "mainClass": "Window03",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window01",
+            "request": "launch",
+            "mainClass": "Window01",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
+            "name": "Window02",
+            "request": "launch",
+            "mainClass": "Window02",
+            "projectName": "ProyectosPOO_ec3dfe1f"
+        },
+        {
+            "type": "java",
             "name": "Gato",
             "request": "launch",
             "mainClass": "Gato",

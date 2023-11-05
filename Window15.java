@@ -3,11 +3,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class Window15 extends JFrame{
-    private String u = "Utilizando drawString!";
     public Window15(){
         super("Dibujando arcos");
         setSize(300,170);
-        show();
+        setVisible(true);
     }    
     public void paint (Graphics graph){
         graph.setColor(Color.yellow);

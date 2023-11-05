@@ -7,7 +7,7 @@ public class Window14 extends JFrame{
     public Window14(){
         super("Dibujando lineas, rectangulos y elipses");
         setSize(400,165);
-        show();
+        setVisible(true);
     }    
     public void paint (Graphics graph){
         graph.setColor(Color.red);

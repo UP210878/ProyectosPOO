@@ -8,7 +8,7 @@ public class Window17 extends JFrame{
     public Window17(){
         super("Dibujando figuras en 2D");
         setSize(425, 170);
-        show();
+        setVisible(true);
         
     }
 

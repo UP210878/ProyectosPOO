@@ -1,8 +1,6 @@
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.Color;
-import java.awt.ScrollPane;
-import java.awt.RenderingHints.Key;
 
 public class Window07 extends JFrame implements ActionListener{
     private JTextField textField1;
@@ -43,10 +41,10 @@ public class Window07 extends JFrame implements ActionListener{
             textField1.setText("");
         }
         if (e.getSource() == buttonCloseWindow){
-            int respuesta = JOptionPane.showConfirmDialog
+            int response = JOptionPane.showConfirmDialog
             (this, "Desea salir de la aplicacion", 
             "Confirmar Salida", JOptionPane.YES_NO_OPTION);
-            if (respuesta == JOptionPane.YES_OPTION) {
+            if (response == JOptionPane.YES_OPTION) {
                 System.exit(0);
                 
             }
@@ -55,12 +53,12 @@ public class Window07 extends JFrame implements ActionListener{
     }
 
     public static void main(String[] args) {
-        Window07 formulario = new Window07();
-        formulario.setBounds(0, 0, 450, 450);
-        formulario.setVisible(true);
-        formulario.setResizable(false);
-        formulario.setLocationRelativeTo(null);
-        formulario.setTitle("First Window");
-        formulario.getContentPane().setBackground(new Color(200,200,200));
+        Window07 addTextWindow = new Window07();
+        addTextWindow.setBounds(0, 0, 450, 450);
+        addTextWindow.setVisible(true);
+        addTextWindow.setResizable(false);
+        addTextWindow.setLocationRelativeTo(null);
+        addTextWindow.setTitle("First Window");
+        addTextWindow.getContentPane().setBackground(new Color(200,200,200));
     }
 }

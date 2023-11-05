@@ -185,12 +185,12 @@ public class Window11 extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         Window11 boardGame = new Window11();
-        boardGame.setBounds(0, 0, 345, 385);
+        boardGame.setBounds(0, 0, 345, 400);
         boardGame.setVisible(true);
         boardGame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         boardGame.setResizable(false);
         boardGame.setLocationRelativeTo(null);
-        boardGame.setTitle("Gato");
+        boardGame.setTitle("TicTacToe");
         boardGame.getContentPane().setBackground(new Color(20,20,20));
     }
 
