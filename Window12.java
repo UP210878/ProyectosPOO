@@ -1,4 +1,3 @@
-//CONECTA 4
 import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
@@ -123,33 +122,29 @@ public class Window12 extends JFrame implements ActionListener {
             return;
         }
 
-        System.out.println(buttonClicked.getY()/105);
-        System.out.println(buttonClicked.getX()/105);
-
-        int row = buttonClicked.getY()/105;
         int column = buttonClicked.getX()/105;
         
-        int MAXROW = 5;
+        int maxRow = 5;
         int counter = 1;
             for (int j = 0; j < 6; j++) {
                 if (!buttons[column][j].getText().equals("")){
-                    MAXROW = j-counter;
+                    maxRow = j-counter;
                     counter++;
                 }
             }
         if (currentPlayer=='1'){
-        buttons[column][row+MAXROW].setForeground(Color.RED);
-        buttons[column][row+MAXROW].setUI(new MetalButtonUI(){
+        buttons[column][maxRow].setForeground(Color.RED);
+        buttons[column][maxRow].setUI(new MetalButtonUI(){
             protected Color getDisabledTextColor() {
                 return Color.RED;
             }
         });        
-        buttons[column][row+MAXROW].setText("O");
+        buttons[column][maxRow].setText("O");
         }
         else {
-        buttons[column][row+MAXROW].setForeground(Color.BLUE);
-        buttons[column][row+MAXROW].setText("O");
-        buttons[column][row+MAXROW].setUI(new MetalButtonUI(){
+        buttons[column][maxRow].setForeground(Color.BLUE);
+        buttons[column][maxRow].setText("O");
+        buttons[column][maxRow].setUI(new MetalButtonUI(){
             protected Color getDisabledTextColor() {
                 return Color.BLUE;
             }
@@ -272,5 +267,4 @@ public class Window12 extends JFrame implements ActionListener {
         boardGame.setTitle("Connect 4");
         boardGame.getContentPane().setBackground(new Color(20,20,20));
     }
-
 }
