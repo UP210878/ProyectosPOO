@@ -1,4 +1,4 @@
-package Threads;
+package ThreadsEjercicios;
 
 import javax.swing.*;
 import java.awt.*;
@@ -67,7 +67,7 @@ class PongPanel extends JPanel {
         resetCount = 0; // Initialize the counter
         addMouseListener(new PaddleMouseListener());
         addMouseMotionListener(new PaddleMouseListener());
-        Timer timer = new Timer(10, new ActionListener() {
+        Timer timer = new Timer(20, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 update();

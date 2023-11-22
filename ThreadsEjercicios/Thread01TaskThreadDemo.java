@@ -1,4 +1,4 @@
-package Threads;
+package ThreadsEjercicios;
 
 public class Thread01TaskThreadDemo {
     public static void main(String[] args) {
