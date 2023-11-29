@@ -8,7 +8,6 @@ import java.awt.event.*;
 
 public class UsoThreads {
     public static void main(String[] args) {
-        System.setProperty("sun.java2d.opengl","true");
 
         JFrame marco = new MarcoRebote();
         
